@@ -130,7 +130,7 @@ header{
 }
 .top-left{
   float: left;
-  width: 90%;
+  width: 100%;
   height: 500px;
   padding-top: 80px;
 
@@ -162,11 +162,22 @@ display: none;
   color: black;
 }
 .top-left h2{
-  color:    #CC3300;
-  font-size: 67px;
-  text-shadow: 2px 2px 0 #FFF, -2px -2px 0 #FFF,-2px 2px 0 #FFF,2px -2px 0 #FFF, 0px 1px 0 #FFF,0 -2px 0 #FFF,-1px 0 0 #FFF,1px 0 0 #FFF;
+  color: black;
+  font-size: 45px;
   padding: 0px 80px;
 }
+.top-left br{
+  display: none;
+}
+.top-left h3{
+  font-size: 30px;
+  padding: 60px  0 0 80px;
+}
+.span3{
+  color:    #CC3300;
+  font-size: 80px;
+}
+
 .bannars1{
   clear: both;
   width: 100%;
@@ -195,7 +206,7 @@ display: none;
 
   color: white;
   padding: 0px 10px;
-  margin: 10px 0px 0 60px;
+  margin: 0px 0px 0 60px;
   border-radius: 7px;
 }
 .span1{
@@ -203,13 +214,14 @@ display: none;
   padding-right: 10px;
 
 }
-.span2{
+.san2{
   border-bottom:20px double #CC3300;
 }
 .bannar2 h2{
+
   width: 100%;
-  padding: 40px 0 0 70px;
-  text-shadow: 2px 2px 0 #FFF, -2px -2px 0 #FFF,-2px 2px 0 #FFF,2px -2px 0 #FFF, 0px 1px 0 #FFF,0 -2px 0 #FFF,-1px 0 0 #FFF,1px 0 0 #FFF;
+  padding: 20px 0 0 70px;
+
 }
 .bannars1 p,.bannars1 i{
   clear: both;
@@ -221,6 +233,55 @@ display: none;
 .h2-1{
   font-size: 50px;
   color:#000060;
+}
+.bannars1{
+  height: 170px;
+  position: relative;
+}
+.bannar1{
+  background:linear-gradient( 270deg,rgba(255, 255, 255, 0),rgba(240, 240, 240, 1)),url("4159829_ss.jpg");
+  width: 44%;
+  height: 170px;
+  background-size: cover;
+
+}
+.bannar2{
+  width: 52%;
+  height: 120px;
+}
+.bannar2 h2{
+  width: 300px;
+  padding: 0px 0 0 60px;
+  font-size: 18px;
+  line-height: 0;
+　　position: absolute;
+}
+.bannar2 i{
+  font-size: 45px;
+  color: #000060;
+  float: left;
+  padding:10px 0px 0 10px;
+}
+.bannar2 h1{
+  font-size: 40px;
+  width: 200px;
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 60px;
+    color:  #CC3300;
+    background-color: rgba(255, 0, 0, 0);
+    z-index: 20
+}
+.bannar2 p{
+
+  color: #000060;
+  border: 2px solid #000060;
+  padding: 0;
+  font-size: 14px;
+  background-color: #FFF;
+  margin-left: 10px;
+  margin-top: 2px;
+
 }
 .content2{
   margin-top: 40px;
@@ -568,7 +629,88 @@ footer{
   width: 150px;
   height: 50px;
   margin: 0 auto;
-
+}
+.content6{
+  height: 2300px;
+  width: 100%;
+  background-color:    rgba(20, 100,190 , 0.15);
+  color: black;
+}
+.top2{
+  width: 100%;
+  height: 400px;
+  color:   #CC3300;
+  background:linear-gradient(270deg,rgba(255, 255, 255, 0.0),rgba(255, 245, 235, 0.86)),url("319930_ms.jpg");
+  background-size: cover;
+  text-align: center;
+}
+.top2 h1{
+  font-size: 70px;
+  padding: 60px 0 40px 0;
+}
+.top2 h2{
+  font-size: 40px;
+  color: black;
+}
+.top2 span{
+  font-size: 110px;
+  color:  #000080;
+  line-height: 15px;
+  border-bottom: 24px double #CC3300;
+  padding-bottom: 0;
+}
+.table{
+  margin: 0 auto;
+  height: 1900px;
+  width: 100%;
+  display: block;
+}
+.table h1{
+  color: #000060;
+  text-align: center;
+  padding: 80px 0  40px 0;
+}
+.text5{
+  width: 80%;
+  margin: 0 auto;
+}
+.text5 h2{
+  font-size: 30px;
+  padding-left: 15px;
+  border-left: 10px solid #CC3300;
+  color: #000060;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.text5 p{
+  font-size: 18px;
+  padding: 10px;
+  font-family: sans-serif;
+  padding-bottom: 40px;
+}
+.text5 li{
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  list-style: none;
+  padding-bottom: 20px;
+}
+table{
+  color: #444;
+  border-collapse: collapse;
+  margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    clear: right;
+}
+th{
+  padding: 20px;
+}
+td{
+  padding: 20px;
+}
+.text5 h5{
+  float: right;
 }
 @media(max-width:1200px){
   .content4{
@@ -643,7 +785,7 @@ footer{
     height: 200px;
   }
   .bannar2 h2{
-    width: 100%;
+    width: 500px;
     padding: 0px 0 0 60px;
   }
   .bannar2 i{
@@ -666,12 +808,12 @@ footer{
   .point2{
     background-color: white;
     width: 80%;
-    height: 400px;
+    height: 350px;
     margin-top: 40px;
     margin-left: 50px;
   }
   .content2{
-    height: 1550px;
+    height: 1700px;
   }
   .point2 p{
     padding-left: 60px;
@@ -701,7 +843,7 @@ footer{
     width: 60%;
   }
   .content3{
-    height: 1600px;
+    height: 1400px;
   }
   .tyuu img{
     width: 240px;
@@ -755,18 +897,23 @@ footer{
   }
   .bannars1{
     height: 220px;
+    width: 94%;
+    margin: 0 auto;
+      border-radius: 12px;
   }
   .bannar1{
     background:linear-gradient( 270deg,rgba(255, 255, 255, 0),rgba(240, 240, 240, 1)),url("4159829_ss.jpg");
     width: 48%;
     height: 220px;
+    border-radius: 15px;
   }
   .bannar2{
     width: 52%;
     height: 170px;
+      border-radius: 15px;
   }
   .bannar2 h2{
-    width: 100%;
+    width: 500px;
     padding: 0px 0 0 60px;
   }
   .bannar2 i{
@@ -776,7 +923,7 @@ footer{
     padding:35px 10px 0 50px;
   }
   .bannar2 h1{
-    font-size: 60px;
+    font-size: 50px;
     width: 300px;
   }
   .bannar3-right{
@@ -787,6 +934,31 @@ footer{
   }
   .bannar4-right{
     width: 49%;
+  }
+
+  .content1{
+    height: 300px;
+  }
+  .top-left{
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+  }
+  .top-left h3{
+    font-size: 16px;
+    padding: 25px 30px 0 20px;
+
+  }
+  .top-left br{
+
+  }
+  .top-left h2{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .span3{
+    font-size: 46px;
+
   }
 }
 @media(max-width:700px){
@@ -800,6 +972,9 @@ footer{
     float: none;
     clear: both;
     margin: 0 auto;
+    padding: 0;
+    height: 165px;
+    width: 70%;
   }
   .points h1{
     float: none;
@@ -808,18 +983,18 @@ footer{
     width: 100px;
     height: 100px;
     margin: 0 auto;
-    padding-bottom: 20px;
+      padding-bottom: 20px;
+  }
+  .point p{
+    font-size: 15px;
+    padding-top: 10px;
   }
   .points{
-    height: 600px;
+    height: 500px;
     width: 80%;
   }
   .content2{
-    height: 1850px;
-  }
-  .top-left h2{
-    font-size: 50px;
-    padding: 0 40px;
+    height: 1750px;
   }
   .top-left{
     height: 360px;
@@ -974,11 +1149,59 @@ footer{
   .no-click li:nth-child(3){
     margin-top: 10px;
   }
-  .top-left h2{
-    text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,-1px 1px 0 #FFF,1px -1px 0 #FFF, 0px 1px 0 #FFF,0 -1px 0 #FFF,-1px 0 0 #FFF,1px 0 0 #FFF;
-  }
 }
 @media(max-width:600px){
+  .shou img{
+    width: 180px;
+    height: 120px;
+  }
+  .tyuu img{
+    width: 180px;
+    height: 120px;
+    padding-left: 10px;
+  }
+  .kou img{
+    width: 180px;
+    height: 120px;
+    padding-right: 20px;
+  }
+  .text3{
+    background-color: rgba(240, 240, 240, 1);
+    width: 100%;
+    height: 110px;
+    margin-top: 150px;
+    border-radius: 0 0 0px 0px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+  }
+  .corse{
+    height: 260px;
+  }
+  .content1{
+    height: 300px;
+  }
+  .top-left{
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+  }
+  .top-left h3{
+    font-size: 16px;
+    padding: 25px 30px 0 20px;
+
+  }
+  .top-left br{
+
+  }
+  .top-left h2{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .span3{
+    font-size: 46px;
+
+  }
   .right h1{
     font-size: 28px;
   }
@@ -1024,49 +1247,69 @@ footer{
   .bannar2 h2{
     font-size: 30px;
   }
-}
-@media(max-width:495px){
-  .content1{
-    height: 340px;
+  .top-left h3{
+    font-size: 16px;
+    padding: 25px 30px 0 20px;
+    display: none;
   }
   .top-left{
-    padding-top: 70px;
+    width: 100%;
   }
-  .top-left h2{
-    font-size: 35px;
-    padding-left: 20px;
+  .top-left br{
+    display: block;
   }
   .bannars1{
     height: 170px;
+    position: relative;
   }
   .bannar1{
     background:linear-gradient( 270deg,rgba(255, 255, 255, 0),rgba(240, 240, 240, 1)),url("4159829_ss.jpg");
     width: 44%;
     height: 170px;
     background-size: cover;
+
   }
   .bannar2{
     width: 52%;
     height: 120px;
   }
   .bannar2 h2{
-    width: 100%;
+    width: 300px;
     padding: 0px 0 0 60px;
-    font-size: 26px;
+    font-size: 18px;
+    line-height: 0;
+　　position: absolute;
   }
   .bannar2 i{
-    font-size: 40px;
+    font-size: 45px;
     color: #000060;
     float: left;
-    padding:25px 10px 0 20px;
+    padding:10px 0px 0 10px;
   }
   .bannar2 h1{
-    font-size: 45px;
-    width: 225px;
+    font-size: 40px;
+    width: 200px;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 60px;
+      color:  #CC3300;
+      background-color: rgba(255, 0, 0, 0);
+      z-index: 20
+  }
+  .bannar2 p{
+
+    color: #000060;
+    border: 2px solid #000060;
+    padding: 0;
+    font-size: 14px;
+    background-color: #FFF;
+    margin-left: 10px;
+    margin-top: 2px;
+
   }
   .content2{
     font-size: 19px;
-    height: 1900px;
+    height: 1700px;
   }
   .point2{
     width: 96%;
