@@ -617,7 +617,7 @@ footer{
   margin: 0 auto;
 }
 .content6{
-  height: 2300px;
+  height: 2500px;
   width: 100%;
   background-color:    rgba(20, 100,190 , 0.15);
   color: black;
@@ -647,7 +647,7 @@ footer{
 }
 .table{
   margin: 0 auto;
-  height: 1900px;
+  height: 2000px;
   width: 99%;
   display: block;
   margin: 0 auto;
@@ -682,6 +682,9 @@ footer{
   list-style: none;
   padding-bottom: 20px;
 }
+.text5 h3{
+  font-size: 24px;
+}
 table{
   color: #444;
   border-collapse: collapse;
@@ -699,6 +702,92 @@ td{
 .text5 h5{
   float: right;
 }
+.content7{
+  height: 840px;
+}
+.top3{
+  height: 15px;
+}
+form{
+  text-align: left;
+  margin: 0 auto;
+  width: 70%;
+}
+form h2{
+  padding: 20px;
+  font-size: 28px;
+}
+.span5{
+  font-size: 10px;
+  color: red;
+}
+form p{
+  padding-top: 20px;
+}
+.content8{
+  height: 2200px;
+}
+.text6{
+  text-align: center;
+  width: 50%;
+  margin: 70px auto;
+  border: red solid 2px;
+}
+.text6 h3{
+  padding: 20px;
+}
+.text6 h1{
+  padding: 20px;
+}
+.text6 p{
+  padding: 20px;
+}
+.text7{
+  text-align: center;
+  height: 150px;
+  padding: 50px;
+}
+.text7 h2{
+  padding: 40px;
+}
+.span6{
+  font-size: 38px;
+  color:  #CC3300;
+}
+.text8 p{
+    border-bottom: #000060 solid 1.5px;
+}
+.text8{
+  width: 80%;
+  height: 1000px;
+  margin: 0 auto;
+}
+.left2{
+  float: left;
+  width: 60%;
+}
+.right3{
+  float: right;
+  width: 60%;
+}
+.image4{
+  width: 304px;
+  height: 228px;
+  margin: 80px 0 0 40px;
+}
+.image3,.image5{
+  width: 304px;
+  height: 202px;
+  margin: 110px 40px 0 40px;
+}
+.span7{
+  color: #CC3300;
+  font-size: 40px;
+    padding-right: 15px;
+
+}
+
+
 @media(max-width:1200px){
   .content4{
     width: 96%;
@@ -754,6 +843,28 @@ td{
     margin-top: 2px;
 
   }
+  .text8{
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+  .left2,.right3{
+    width: 50%;
+  }
+  .right3{
+    margin-top: 30px;
+  }
+  .image4{
+    margin-top: 120px;
+    margin-left: 80px;
+  }
+  .image3,.image5{
+    margin-top: 130px;
+    margin-bottom: 90px;
+  }
+  .content8{
+    height: 2300px;
+  }
 }
 @media(max-width:1100px){
 
@@ -779,6 +890,7 @@ td{
   .points2{
     width: 90%;
   }
+
 }
 @media(max-width:950px){
   .points2{
@@ -806,6 +918,10 @@ td{
     color:    #CC3300;
     font-size: 70px;
 
+  }
+  form{
+    float: left;
+    padding-left: 100px;
   }
 }
 @media(max-width:900px){
@@ -952,6 +1068,23 @@ td{
     float: right;
     font-size: 12px;
   }
+  .text8{
+    width: 95%;
+    height: 1300px;
+    margin:  0 auto;
+  }
+  .right3{
+    width: 45%;
+    margin-top: 30px;
+  }
+  .left2{
+    width: 45%;
+
+  }
+  .image5{
+    margin-top: 230px;
+    margin-bottom: 20px;
+  }
 }
 @media(max-width:810px){
   .corse{
@@ -1002,6 +1135,42 @@ td{
   .top-botton{
     left: 84%;
   }
+  .content8{
+    height: 2700px;
+  }
+  .text8{
+    width: 80%;
+  height:  1650px;
+  }
+  .left2,.right3{
+    width: 100%;
+    float: none;
+  }
+  .image4{
+    margin-top: 60px;
+  }
+  .image5{
+    margin-left: 80px;
+    margin-bottom: 0;
+    margin-top: 60px;
+  }
+  .image3{
+    display: none;
+  }
+  .text6{
+    width: 70%;
+    margin-top: 0;
+  }
+  .text6 p{
+    font-size: 14px;
+  }
+  .text6 h3{
+    font-size: 17px;
+  }
+  .image4,.image5{
+    margin-left: 140px;
+  }
+
 }
 @media(max-width:760px){
   .call a{
@@ -1090,9 +1259,18 @@ td{
     font-size: 46px;
 
   }
+  .image4,.image5{
+    margin-left: 80px;
+  }
+
 
 }
 @media(max-width:700px){
+  form{
+    width: 70%;
+    text-align: left;
+    margin: 0;
+  }
   .call a{
     font-size: 22px;
     width: 40%;
@@ -1168,6 +1346,9 @@ td{
     width: 240px;
     height: 160px;
     padding-left: 50px;
+  }
+  .image4,.image5{
+    margin-left: 60px;
   }
 
 }
@@ -1284,6 +1465,7 @@ td{
   .no-click li:nth-child(3){
     margin-top: 10px;
   }
+
 }
 @media(max-width:600px){
   .shou img{
@@ -1587,8 +1769,25 @@ td{
     padding: 10px;
     font-size: 14px;
   }
+  .content8{
+    height: 2900px;
+  }
   .text5 h5{
     float: right;
     font-size: 12px;
+  }
+  .image4,.image5{
+    margin-left: 0px;
+  }
+  .text7{
+    height: 220px;
+  }
+  .text8{
+    height: 1900px;
+  }
+  .text6 h3{
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 0;
   }
 }
