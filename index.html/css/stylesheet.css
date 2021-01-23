@@ -28,9 +28,12 @@ header{
 }
 .up{
   font-size: 14px;
+  padding-top: 5px;
 }
 .down{
-  font-size: 40px;
+  font-size: 45px;
+  line-height: 50px;
+  letter-spacing: 2px;
 }
 .text1{
   margin: 0 auto;
@@ -38,6 +41,7 @@ header{
   height: 90px;
 }
 .left h2{
+  padding-top: 5px;
   color: #000060;
 }
 .left{
@@ -174,7 +178,7 @@ display: none;
 }
 .bannar1{
   background:linear-gradient( 270deg,rgba(255, 255, 255, 0),rgba(240, 240, 240, 1)),url("4159829_s.jpg");
-  width: 48%;
+  width: 40%;
   height: 350px;
 
   float: right;
@@ -182,7 +186,7 @@ display: none;
 }
 .bannar2{
   float: left;
-  width: 52%;
+  width: 60%;
   height: 300px;
 }
 .bannar2 h1{
@@ -634,6 +638,9 @@ footer{
   font-size: 70px;
   padding: 60px 0 40px 0;
 }
+.top2 p{
+  color: black;
+}
 .top2 h2{
   font-size: 40px;
   color: black;
@@ -1005,7 +1012,7 @@ form p{
     padding: 60px 0 40px 0;
   }
   .top2 h2{
-    font-size: 24px;
+    font-size: 25px;
   }
   .top2 span{
     font-size:70px;
@@ -1028,7 +1035,7 @@ form p{
     margin: 0 auto;
   }
   .text5 h2{
-    font-size: 25px;
+    font-size: 22px;
     padding-left: 15px;
     border-left: 10px solid #CC3300;
     color: #000060;
@@ -1036,7 +1043,7 @@ form p{
     margin-bottom: 40px;
   }
   .text5 p{
-    font-size: 17px;
+    font-size: 15px;
     padding: 10px;
     font-family: sans-serif;
     padding-bottom: 40px;
@@ -1436,6 +1443,10 @@ form p{
   }
   .down{
     font-size: 34px;
+    line-height: 34px;
+  }
+  .left h2{
+    padding-top: 0;
   }
   .text1{
    line-height: 27px;
@@ -1741,14 +1752,14 @@ form p{
     margin-bottom: 40px;
   }
   .text5 p{
-    font-size: 17px;
+    font-size: 15px;
     padding: 10px;
     font-family: sans-serif;
     padding-bottom: 40px;
   }
   .text5 li{
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 17px;
     font-family: sans-serif;
     list-style: none;
     padding-bottom: 20px;
